@@ -1,0 +1,30 @@
+# Báo cáo: Exercise1 Widget
+
+## Tổng quan
+File `lib/exercises/exercise1.dart` định nghĩa một widget `Exercise1` sử dụng Flutter framework để tạo một ứng dụng đơn giản có tên "I Am Rich".
+
+## Các thành phần chính
+
+1. **Widget**: `Exercise1` kế thừa từ `StatelessWidget`.
+
+2. **Cấu trúc ứng dụng**:
+   - Sử dụng `MaterialApp` làm widget gốc.
+   - Áp dụng `Scaffold` để tạo bố cục cơ bản.
+
+3. **AppBar**:
+   - Tiêu đề: "I Am Rich"
+   - Căn giữa tiêu đề
+   - Màu nền: `Colors.blueGrey[900]`
+
+4. **Body**:
+   - Sử dụng `Center` widget để căn giữa nội dung.
+   - Hiển thị một hình ảnh từ tài nguyên local (`images/diamond.png`).
+
+5. **Màu sắc**:
+   - Màu nền chính: `Colors.blueGrey`
+
+## Lưu ý
+- Hàm `main()` không được định nghĩa trong file này, mà nằm trong file `main.dart`.
+
+## Kết luận
+Widget này tạo ra một ứng dụng đơn giản với giao diện tối giản, hiển thị một hình ảnh kim cương ở giữa màn hình và có thanh tiêu đề "I Am Rich".
